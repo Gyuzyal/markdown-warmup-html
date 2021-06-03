@@ -1,0 +1,89 @@
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  
+  
+  background: -webkit-linear-gradient(90deg, rgb(151, 199, 206), rgb(58, 126, 135));
+  background: linear-gradient(90deg, rgb(151, 199, 206), rgb(58, 126, 135));
+
+
+  margin-left: auto ; 
+  margin-right: auto; 
+  width: 80%;
+}
+
+h1, h2,h3,figure, p {
+  text-align: center;
+}
+ 
+blockquote {
+
+  margin: auto;
+  font-size: 160%;
+  background-color: WhiteSmoke; 
+  border-left-style: solid;
+  border-left-width: 3px;
+  border-left-color: firebrick;
+  padding: 10px;
+  width: 550px;
+  text-align: center;
+
+}
+
+figure {
+  
+  margin: 50px;
+  border-radius: 200px;
+  padding: 5px 15px;
+}
+
+
+table {
+  
+  table-layout: auto;
+  width: 40%;
+  color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.white {
+  background-color: #1E6B69;
+}
+.grey {
+  background-color: #30ABA7;
+}
+
+div.list {
+   padding-left: 40%;
+
+}
+
+div.links {
+  padding-left: 31%;
+  padding-bottom: 10%;
+}
+
+a:link {
+  
+  display: inline-block;  
+  background-color: #1E6B69;
+  color: white;
+  
+  border-radius: 8px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  color : #3BD1CC;
+  margin: 10px;
+
+
+}
+
+a:hover {
+  color: #45F7F1;
+}
